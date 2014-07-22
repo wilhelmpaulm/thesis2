@@ -16,6 +16,7 @@ class CreateComplaintTypeTagsTable extends Migration {
 			$table->increments('id');
 			$table->integer('complaint_id');
 			$table->string('type');
+			$table->integer('type_id');
 			$table->timestamps();
 		});
 	}

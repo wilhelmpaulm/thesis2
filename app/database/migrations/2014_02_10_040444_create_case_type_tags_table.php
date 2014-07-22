@@ -15,6 +15,7 @@ class CreateCaseTypeTagsTable extends Migration {
 		Schema::create('case_type_tags', function(Blueprint $table) {
 			$table->increments('id');
 			$table->integer('case_id');
+			$table->string('type_id');
 			$table->string('type');
 			$table->timestamps();
 		});

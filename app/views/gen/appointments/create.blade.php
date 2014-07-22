@@ -24,7 +24,7 @@
         <div class="form-group col-md-6">
             <?php $agents = User::all(); ?>
             <label for="title">Send To</label>
-            <select name="recipient_id[]" class="selectpicker form-control " multiple data-live-search="true" multiple data-selected-text-format="count">
+            <select name="recipient_id[]" class="selectpicker form-control " multiple data-live-search="true"  data-selected-text-format="count">
                 @foreach($agents as $a)
                 @if($a->id != Auth::user()->id)
                 <option value="{{$a->id}}" ><span class="pull-left">{{$a->id." ".$a->last_name.", ".$a->first_name}}</span><span class="hidden"> {{"(".$a->division.": ".$a->job_title.")"}}</span></option>
@@ -62,17 +62,17 @@
         });
     });
 
-    $("#add_recipient_btn").on("click", function() {
-        var body = $("#add_recipient_body").html();
-//        console.log(body);
+//    $("#add_recipient_btn").on("click", function() {
+//        var body = $("#add_recipient_body").html();
+////        console.log(body);
+//
+//        $("#add_recipient_panel").append(body);
+//    });
+//
+//    $("body").on("click", ".remove", function() {
+//        $(this).parent().parent().parent().remove();
+//    });
 
-        $("#add_recipient_panel").append(body);
-    });
 
-    $("body").on("click", ".remove", function() {
-        $(this).parent().parent().parent().remove();
-    });
-
-
-    $('.selectpicker').selectpicker();
+   
 </script>

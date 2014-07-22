@@ -8,7 +8,7 @@
 <!-- Tab panes -->
 <div class="tab-content">
     <div class="tab-pane active" id="main">
-        <ul class="sidebar-menu ">
+        <ul class="sidebar-menu f-osb">
 
             
             <li>

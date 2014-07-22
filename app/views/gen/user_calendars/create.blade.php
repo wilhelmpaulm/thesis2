@@ -34,10 +34,11 @@ $date_start = new DateTime($task->date_start);
 $date_end = new DateTime($task->date_end);
 ?>
     {
-    title: " - {{$task->title}}",
+    title: " - {{$task->title}} (task)",
             start: new Date(<?= $date_start->format('Y') . ", " . (intval($date_start->format('m')) - 1) . "," . $date_start->format('d') . ", " . $date_start->format('H') . "," . $date_start->format('i') ?>),
             end: new Date(<?= $date_end->format('Y') . ", " . (intval($date_end->format('m')) - 1) . "," . $date_end->format('d') . ", " . $date_end->format('H') . "," . $date_end->format('i') ?>),
-            allDay:false
+            allDay:false,
+            backgroundColor: "#00ABA9"
     },
             @endforeach
 
@@ -51,10 +52,11 @@ $date_start = new DateTime($app->date_start);
 $date_end = new DateTime($app->date_end);
 ?>
     {
-    title: " - {{$app->title}}",
+    title: " - {{$app->title}} (asppointment)",
             start: new Date(<?= $date_start->format('Y') . ", " . (intval($date_start->format('m')) - 1) . "," . $date_start->format('d') . ", " . $date_start->format('H') . "," . $date_start->format('i') ?>),
             end: new Date(<?= $date_end->format('Y') . ", " . (intval($date_end->format('m')) - 1) . "," . $date_end->format('d') . ", " . $date_end->format('H') . "," . $date_end->format('i') ?>),
-            allDay:false
+            allDay:false,
+          backgroundColor: "#3c8dbc"
     },
             @endforeach
 

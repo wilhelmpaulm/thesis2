@@ -1,5 +1,6 @@
 <?php
 $case = null;
+$otof = [1,2,3,4,5];
 ?>
 <!--<div class="panel panel-black">
     <div class="panel-heading">
@@ -37,11 +38,11 @@ $case = null;
                             <div class="row">
                                 <div class="col-lg-1">
                                     <div>
-                                        <span class="label bg-teal">5</span>
+                                        <span class="label bg-teal">{{($c->user_priority + $c->chief_priority)/2}}</span>
                                     </div>
 
                                     <div>
-                                        <span class="label label-warning">5</span>
+                                        <span class="label label-warning">{{$c->user_rating/1}}</span>
                                     </div>
 
                                 </div>
@@ -54,7 +55,7 @@ $case = null;
 
                                         <span class="text-muted"> <small>
                                                 <span>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                    {{$c->details}}
                                                 </span>
 
 
@@ -83,73 +84,76 @@ $case = null;
                     <div class="panel-body">
 
                         <div class="row">
-<!--                            <div class="col-lg-3" style="overflow-x: auto; overflow-y: hidden" >
-
-                            </div >-->
-
+                            <!--                            <div class="col-lg-3" style="overflow-x: auto; overflow-y: hidden" >
+                            
+                                                        </div >-->
+                           
                             <div  class="col-lg-3" style="border-left: 1px solid #eee;border-right: 1px solid #eee; height: 100% ">
                                 Agent Rating 
                                 <select class="input-mini input-group-sm pull-right" name="">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
+                                   
+                                     @foreach($otof as $o)
+                                     @if($o == $c->user_rating)
+                                     <option selected="">{{$o}}</option>
+                                     @else
+                                     <option>{{$o}}</option>
+                                     @endif
+                                    @endforeach
                                 </select>
                                 <hr>
                                 Priority level
                                 <select class="input-mini input-group-sm pull-right" name="">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
+                                    @foreach($otof as $o)
+                                     @if($o == $c->user_priority)
+                                     <option selected="">{{$o}}</option>
+                                     @else
+                                     <option>{{$o}}</option>
+                                     @endif
+                                    @endforeach
                                 </select>
-                                
+
                                 <hr>
                                 
+                                <div style="overflow-x: auto">
                                 <?php $case_type_tags = Case_type_tag::where("case_id", "=", $c->id)->get(); ?>
                                 @foreach($case_type_tags as $ctt)
                                 <p class="label label-primary bg-orange">
                                     {{$ctt->type}}
                                 </p> 
                                 @endforeach
+                                </div >
+                                
                             </div >
                             <div  class="col-lg-9" style="border-left: 1px solid #eee; height: 100% ">
                                 <table class="table table-hover table-bordered table-condensed table-striped ">
                                     <thead>
                                         <tr>
-                                            <th width="5%">#</th>
+                                            <th width="5%"></th>
                                             <th width="">Task</th>
-                                            <th width="5%"><span class="btn-group btn-group-xs"><button class="btn btn-success"><i class="fa fa-plus"></i></button></span></th>
+                                            <th width="5%">
+                                                <span class="btn-group btn-group-xs">
+                                                    <a class="btn  btn-success addCaseTask" type="button" data-case_id="{{$c->id}}" data-toggle="modal" data-target="#addTask">
+                                                        <i class="fa fa-plus"></i>  
+                                                    </a>
+                                                </span>
+                                            </th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        <?php $case_tasks = Task::where("case_id","=",$c->id)->get(); ?>
+                                        @foreach($case_tasks as $task )
                                         <tr>
-                                            <th width="5%">#</th>
-                                            <td>gfhdfghdhfgh</td>
-                                            <th width="5%"><span class="btn-group btn-group-xs"><button class="btn btn-danger"><i class="fa fa-minus"></i></button></span></th>
+                                            <th width="5%">{{$task->priority}}</th>
+                                            <td>{{$task->title}}</td>
+                                            <th width="5%"><span class="btn-group btn-group-xs"><button class=" btn btn-warning" 
+                                                                                                        data-toggle="modal" data-target="#task_{{$task->id}}"><i class="fa fa-wrench"></i></button></span></th>
                                         </tr>
-                                        <tr>
-                                            <th width="5%">#</th>
-                                            <td>gfhdfghdhfgh</td>
-                                            <th width="5%"><span class="btn-group btn-group-xs"><button class="btn btn-danger"><i class="fa fa-minus"></i></button></span></th>
-                                        </tr>
-                                        <tr>
-                                            <th width="5%">#</th>
-                                            <td>gfhdfghdhfgh</td>
-                                            <th width="5%"><span class="btn-group btn-group-xs"><button class="btn btn-danger"><i class="fa fa-minus"></i></button></span></th>
-                                        </tr>
-                                        <tr>
-                                            <th width="5%">#</th>
-                                            <td>gfhdfghdhfgh</td>
-                                            <th width="5%"><span class="btn-group btn-group-xs"><button class="btn btn-danger"><i class="fa fa-minus"></i></button></span></th>
-                                        </tr>
-                                        <tr>
-                                            <th width="5%">#</th>
-                                            <td>hdfhdfhdfgh</td>
-                                            <th width="5%"><span class="btn-group btn-group-xs"><button class="btn btn-danger"><i class="fa fa-minus"></i></button></span></th>
-                                        </tr>
+                                            
+                                          
+
+                                                @include("gen.tasks.edit_case")
+
+                                        @endforeach        
                                     </tbody>
                                 </table>
 
@@ -158,7 +162,7 @@ $case = null;
                         </div >
                         <hr>
                         <span class="btn-group btn-group-xs pull-right">
-                        <button class="btn btn-primary ">Save Changes</button>
+                            <button class="btn btn-primary ">Save Changes</button>
                         </span>
                     </div>
 
@@ -187,3 +191,46 @@ $case = null;
 
 
 </script>
+
+<!--<div class="modal container fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >-->
+<div id="addTask" class="modal container fade" tabindex="-1" style="display: none;">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Add Case Task</h4>
+        </div>
+        <form action="{{URL::to('tasks/store-case')}}" method="POST">
+            <div class="modal-body">
+                @include("gen.tasks.create_case")
+            </div>
+            <div class="modal-footer">
+                <span class="btn-group btn-group-sm">
+                    <button type="" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<script>
+    $(".addCaseTask").on("click", function(){
+        var case_id = $(this).data("case_id");
+        $(".formCaseId").val(case_id);
+    });
+    
+    $(".editCaseTask").on("click", function(){
+        $(".formCaseId").val($(this).data("case_id"));
+        $(".formDateStart").val($(this).data("date_start"));
+        $(".formDateEnd").val($(this).data("date_end"));
+        $(".formCaseId").val($(this).data("case_id"));
+        $(".formTitle").val($(this).data("title"));
+        $(".formBody").val($(this).data("body"));
+    });
+
+
+</script>
+

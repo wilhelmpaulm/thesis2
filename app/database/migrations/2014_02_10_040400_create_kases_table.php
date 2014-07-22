@@ -23,6 +23,9 @@ class CreateKasesTable extends Migration {
 			$table->string('status')->nullable();
 			$table->string('date_assigned')->nullable();
 			$table->string('date_reported')->nullable();
+			$table->integer('user_rating')->nullable();
+			$table->integer('user_priority')->nullable();
+			$table->integer('chief_priority')->nullable();
 			$table->timestamps();
 		});
 	}

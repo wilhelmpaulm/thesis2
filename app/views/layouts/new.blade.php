@@ -1,4 +1,6 @@
-<?php $user = Auth::user();
+<?php 
+$user = Auth::user();
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,7 +12,7 @@
         <style>
             body {
 
-                /*zoom: 87%;*/
+                zoom: 87%;
                 /*height: 600vh;*/
                 /*transform: scale(.80);*/
                 /*transform-origin: 10% 10%;*/
@@ -111,7 +113,7 @@
                         <!-- Messages: style can be found in dropdown.less-->
 
                         <li class="dropdown">
-                            <a class="dropdown-toggle refresh " data-toggle="dropdown" href="#"><span class="" id="notifSpan"><i class="fa fa-bullhorn"></i> <span id="notifNum"></span>  <i class="fa fa-caret-down"></i></span>                            </a>
+                            <a class="dropdown-toggle refresh " data-toggle="dropdown" href="#"><span class="" id="notifSpan"><i class="fa fa-bullhorn"></i> <span id="notifNum"></span></span>                            </a>
                             <ul class="dropdown-menu long-down"  id="alert-notifications">
                             </ul>
                         </li>
@@ -124,10 +126,18 @@
                             <ul class="dropdown-menu long-down"  id="alert-messages">
                             </ul>
                         </li>
+                        <li class="dropdown messages-menu">
+                            <a href="#" class="dropdown-toggle refresh" data-toggle="dropdown">
+                                <i class="fa fa-tasks"></i>
+                                <!--<span class="label label-success">4</span>-->
+                            </a>
+                            <ul class="dropdown-menu long-down"  id="alert-tasks">
+                            </ul>
+                        </li>
                         <!-- Notifications: style can be found in dropdown.less -->
                         <li class="dropdown notifications-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-list"></i>
+                                <i class="fa fa-pencil"></i>
                                 <!--<span class="label label-warning">10</span>-->
                             </a>
                             <ul class="dropdown-menu">
@@ -144,92 +154,25 @@
                             </ul>
                         </li>
                         <!-- Tasks: style can be found in dropdown.less -->
-                        <li class="dropdown tasks-menu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-tasks"></i>
-                                <span class="label label-danger">9</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="header">You have 9 tasks</li>
-                                <li>
-                                    <!-- inner menu: contains the actual data -->
-                                    <ul class="menu">
-                                        <li><!-- Task item -->
-                                            <a href="#">
-                                                <h3>
-                                                    Design some buttons
-                                                    <small class="pull-right">20%</small>
-                                                </h3>
-                                                <div class="progress xs">
-                                                    <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                                        <span class="sr-only">20% Complete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li><!-- end task item -->
-                                        <li><!-- Task item -->
-                                            <a href="#">
-                                                <h3>
-                                                    Create a nice theme
-                                                    <small class="pull-right">40%</small>
-                                                </h3>
-                                                <div class="progress xs">
-                                                    <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                                        <span class="sr-only">40% Complete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li><!-- end task item -->
-                                        <li><!-- Task item -->
-                                            <a href="#">
-                                                <h3>
-                                                    Some task I need to do
-                                                    <small class="pull-right">60%</small>
-                                                </h3>
-                                                <div class="progress xs">
-                                                    <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                                        <span class="sr-only">60% Complete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li><!-- end task item -->
-                                        <li><!-- Task item -->
-                                            <a href="#">
-                                                <h3>
-                                                    Make beautiful transitions
-                                                    <small class="pull-right">80%</small>
-                                                </h3>
-                                                <div class="progress xs">
-                                                    <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                                        <span class="sr-only">80% Complete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li><!-- end task item -->
-                                    </ul>
-                                </li>
-                                <li class="footer">
-                                    <a href="#">View all tasks</a>
-                                </li>
-                            </ul>
-                        </li>
+                        
                         <!-- User Account: style can be found in dropdown.less -->
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="glyphicon glyphicon-user"></i>
-                                <span>Jane Doe <i class="caret"></i></span>
+                                <span>{{$user->last_name}}, {{$user->first_name}} <i class="caret"></i></span>
                             </a>
                             <ul class="dropdown-menu">
                                 <!-- User image -->
                                 <li class="user-header bg-black">
-                                    <img src="{{asset('nbi/agent/picture/10930193.jpg')}}" class="img-circle" alt="User Image" />
+                                    <img src="{{asset('nbi/agent/picture/'.$user->file_picture)}}" class="img-circle" alt="User Image" />
                                     <p>
-                                        Jane Doe - Web Developer
-                                        <small>Member since Nov. 2012</small>
+                                        {{$user->last_name}}, {{$user->first_name}}
+                                        <small>{{$user->division}}  - {{$user->job_title}}</small>
+                                        <small>{{$user->date_hired}}</small>
                                     </p>
                                 </li>
                                 <!-- Menu Body -->
-                                <li class="user-body">
+<!--                                <li class="user-body">
                                     <div class="col-xs-4 text-center">
                                         <a href="#">Followers</a>
                                     </div>
@@ -239,14 +182,14 @@
                                     <div class="col-xs-4 text-center">
                                         <a href="#">Friends</a>
                                     </div>
-                                </li>
+                                </li>-->
                                 <!-- Menu Footer-->
                                 <li class="user-footer">
                                     <div class="pull-left">
-                                        <a href="#" class="btn btn-default btn-flat">Profile</a>
+                                        <!--<a href="#" class="btn btn-default btn-flat">Profile</a>-->
                                     </div>
-                                    <div class="pull-right">
-                                        <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                                    <div class="pull-right btn-group-sm">
+                                        <a href="{{URL::to("logout")}}" class="btn btn-default">Sign out</a>
                                     </div>
                                 </li>
                             </ul>
@@ -274,7 +217,7 @@
                             <!--<img src="../../img/avatar3.png" class="img-circle" alt="User Image" />-->
                         </div>
                         <div class="pull-left info">
-                            <p>{{$user->id}}</p>
+                            <p>{{$user->first_name}} <br>{{$user->last_name}}</p>
 
                             <a href="#"><i class="fa fa-circle text-success"></i> {{$user->job_title}}</a>
                         </div>
@@ -325,7 +268,10 @@
                     $.get("{{URL::to('alerts-notifications')}}", function(data) {
                         $("#alert-notifications").replaceWith(data);
                     });
-                }, 3000);
+                    $.get("{{URL::to('alerts-tasks')}}", function(data) {
+                        $("#alert-tasks").replaceWith(data);
+                    });
+                }, 0);
             });
 
 
@@ -361,6 +307,9 @@
                 });
 
             }, 5000);
+            
+            
+            $(".panel-heading").addClass("f-osb");
 
         </script>
     <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>-->

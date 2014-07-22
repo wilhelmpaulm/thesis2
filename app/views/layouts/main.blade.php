@@ -11,9 +11,8 @@
         <link rel="shortcut icon" href="{{URL::asset('apple-touch-icon-144.png')}}">
         <!--&#128269;-->
         <title>SHERLOCK</title>
-
-        <!--{{HTML::style("css/ColumnFilterWidgets.css")}}-->
-        <!--{{HTML::style("css/morris.css")}}-->
+{{HTML::style("css/ColumnFilterWidgets.css")}}
+        {{HTML::style("css/morris.css")}}
         <!-- Bootstrap core CSS -->
         <!--{{HTML::style("css/daterangepicker-bs3.css")}}-->
         {{HTML::style("css/bootstrap-datetimepicker.css")}}
@@ -36,9 +35,9 @@
 
 
 
-        <!--{{HTML::script("js/raphael.js")}}-->
+        {{HTML::script("js/raphael.js")}}
         {{HTML::script("js/jquery.js")}}
-        <!--{{HTML::script("js/morris.js")}}-->
+        {{HTML::script("js/morris.js")}}
         {{HTML::script("js/moment.js")}}
         {{HTML::script("js/bootstrap-tagsinput.js")}}
         <!--{{HTML::script("js/daterangepicker.js")}}-->
@@ -60,7 +59,8 @@
         {{HTML::script("js/highcharts/highcharts.js")}}
         {{HTML::script("js/highcharts/modules/data.js")}}
         {{HTML::script("js/highcharts/modules/exporting.js")}}
-        <!--{{HTML::script("js/ColumnFilterWidgets.js")}}-->
+        {{HTML::script("js/ColumnFilterWidgets.js")}}
+
         <style>
 
 

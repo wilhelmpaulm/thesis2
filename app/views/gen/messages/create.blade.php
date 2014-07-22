@@ -61,5 +61,4 @@
     });
 
 
-    $('.selectpicker').selectpicker();
 </script>

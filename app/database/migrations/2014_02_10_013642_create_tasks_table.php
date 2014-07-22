@@ -16,6 +16,7 @@ class CreateTasksTable extends Migration {
 			$table->increments('id');
 			$table->integer('user_id');
 			$table->string('case_id')->nullable();
+			$table->string('status')->nullable();
 			$table->integer('priority')->nullable();
 			$table->string('title')->nullable();
 			$table->text('body')->nullable();

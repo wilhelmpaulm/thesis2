@@ -2629,6 +2629,1678 @@ class ClientsTableSeeder extends Seeder {
                 "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "Surigao City",
                 "educational_attainment" => "High School", "hair_color" => "Black", "eye_color" => "Black",
                 "complexion" => "Fair", "build" => "Ectomorph", "race" => "Mongolian"],
+
+                //START OF SUBJECT ************** FROM NBI PRESS RELEASE ************************************************************************
+
+                //436
+                ["last_name" => "Sampulna", "first_name" => "Jose", "middle_name" => "Sultan", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //437
+                ["last_name" => "Sampulna", "first_name" => "Dima", "middle_name" => "Maligudan", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //438 
+                ["last_name" => "Ato", "first_name" => "Robert", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //439
+                ["last_name" => "Ato", "first_name" => "Jimmy", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //440
+                ["last_name" => "Poh", "first_name" => "Bing", "middle_name" => "Sye", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Malaysian", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //441
+                ["last_name" => "Orogan", "first_name" => "Minsuari", "middle_name" => "Langcap", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //442
+                ["last_name" => "Langco", "first_name" => "Salic", "middle_name" => "Macadato", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //443
+                ["last_name" => "Atud", "first_name" => "Alfredo", "middle_name" => "Micares", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //444
+                ["last_name" => "Abulad", "first_name" => "William", "middle_name" => "Barrameda", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //445
+                ["last_name" => "Abulad", "first_name" => "Warren", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //446
+                ["last_name" => "Bautista", "first_name" => "King", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //447
+                ["last_name" => "Khaki", "first_name" => "Parviz", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Iranian", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //448
+                ["last_name" => "Ocampo", "first_name" => "Mario", "middle_name" => "Reyes", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //449
+                ["last_name" => "Von Such", "first_name" => "Valerie", "middle_name" => "Santiago", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //450
+                ["last_name" => "Notada", "first_name" => "Patricio", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //451
+                ["last_name" => "Gunda", "first_name" => "Evelyn", "middle_name" => "Aguirre", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //452
+                ["last_name" => "Hontiveros", "first_name" => "Edgardo", "middle_name" => "Rodelas", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //453
+                ["last_name" => "Sin", "first_name" => "Huang", "middle_name" => "Li", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Chinese", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //454
+                ["last_name" => "Geronimo", "first_name" => "Fernando", "middle_name" => "Del Rosario", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //455
+                ["last_name" => "Samson", "first_name" => "Anna Lisa", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //456
+                ["last_name" => "Geronimo", "first_name" => "Ronualdo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //457
+                ["last_name" => "Liwanag", "first_name" => "Evangeline", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //458
+                ["last_name" => "Cacayan", "first_name" => "Tita", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //459
+                ["last_name" => "Jimenez", "first_name" => "Manuel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //460
+                ["last_name" => "Santiago", "first_name" => "Ronel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //461
+                ["last_name" => "Gador", "first_name" => "Rona", "middle_name" => "Sabroso", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //462
+                ["last_name" => "Geroleo", "first_name" => "Romar", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //463
+                ["last_name" => "Layco", "first_name" => "Cipriano", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //464
+                ["last_name" => "Domingo", "first_name" => "Gerald", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //465
+                ["last_name" => "San Martin", "first_name" => "Mary Jane", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //466
+                ["last_name" => "De Jesus", "first_name" => "Emmanuel", "middle_name" => "Yance", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //467
+                ["last_name" => "De Castro", "first_name" => "Edwin", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //468
+                ["last_name" => "Garcia", "first_name" => "Elias", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //469
+                ["last_name" => "Roche", "first_name" => "Sydney", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //470
+                ["last_name" => "Imperial", "first_name" => "Mayma", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //471
+                ["last_name" => "Ebeng", "first_name" => "Gina", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //472
+                ["last_name" => "Lebeng", "first_name" => "Liberty", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //473
+                ["last_name" => "Cabardo", "first_name" => "Alfredo", "middle_name" => "Alejo", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //474
+                ["last_name" => "Valdez", "first_name" => "Rowell", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //475
+                ["last_name" => "Roble", "first_name" => "Ronelo", "middle_name" => "Martel", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //476
+                ["last_name" => "Varona", "first_name" => "Dandin", "middle_name" => "Calvez", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //477
+                ["last_name" => "Garcia", "first_name" => "Adrian Jay", "middle_name" => "Cardenas", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //478
+                ["last_name" => "Bolivar", "first_name" => "Jefferson", "middle_name" => "Madrid", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //479
+                ["last_name" => "Ramos", "first_name" => "Edgar", "middle_name" => "Cultura", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //480
+                ["last_name" => "De Chavez", "first_name" => "Rolando", "middle_name" => "Gutlay", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //481
+                ["last_name" => "Bernardo", "first_name" => "Marcial", "middle_name" => "Ronquillo", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //482
+                ["last_name" => "Hiratsuka", "first_name" => "Masakazi", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Japanese", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //483
+                ["last_name" => "Kobatake", "first_name" => "Nobuharu", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Japanese", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //484
+                ["last_name" => "Tsuda", "first_name" => "Teroo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Japanese", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //485
+                ["last_name" => "Lopez", "first_name" => "Jarvis", "middle_name" => "Guy", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //486
+                ["last_name" => "Dela Concepcion", "first_name" => "Mary Jane", "middle_name" => "Valdez", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //487
+                ["last_name" => "Lee", "first_name" => "Cedric", "middle_name" => "Cua", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //488
+                ["last_name" => "Raz", "first_name" => "Simeon", "middle_name" => "Palma", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //489
+                ["last_name" => "So", "first_name" => "Albert", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Chinese", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //490
+                ["last_name" => "Sarosong", "first_name" => "Hadji Cader", "middle_name" => "Ali", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "Married", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+
+
+//*************************************************************************************************************************************************
+//*************************************************************************************************************************************************
+
+                //START OF NBI PRESS RELEASE COMPLAINANT ******************************************************************************************
+                
+                //491
+                ["last_name" => "Porras", "first_name" => "Justin", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //492
+                ["last_name" => "Villanueva", "first_name" => "Krystal", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //493
+                ["last_name" => "Galan", "first_name" => "Gerry", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //494            
+                ["last_name" => "Santos", "first_name" => "Kristine Camille", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //495
+                ["last_name" => "Yangib", "first_name" => "Rodolfo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //496
+                ["last_name" => "Santiagel", "first_name" => "Realbie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //497
+                ["last_name" => "Lucero", "first_name" => "Arnel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],              
+                //498
+                ["last_name" => "Fabio", "first_name" => "Oliver", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //499             
+                ["last_name" => "Ongpauco", "first_name" => "Louie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //500               
+                ["last_name" => "Tan", "first_name" => "Nelson", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //501              
+                ["last_name" => "Castillo", "first_name" => "Arturo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //502              
+                ["last_name" => "Salvosa", "first_name" => "Minardo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //503               
+                ["last_name" => "Salamat", "first_name" => "Christian", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //504              
+                ["last_name" => "Chen", "first_name" => "Beny", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //505              
+                ["last_name" => "Sabale", "first_name" => "Edith", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //506              
+                ["last_name" => "Romero", "first_name" => "Gloria", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //507             
+                ["last_name" => "Catindig", "first_name" => "Mark", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //508              
+                ["last_name" => "Villanueva", "first_name" => "Sally", "middle_name" => "Ordinario", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //509
+                ["last_name" => "Dargana", "first_name" => "Michael", "middle_name" => "Sison", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //510             
+                ["last_name" => "Dela Cruz", "first_name" => "Florabel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //511             
+                ["last_name" => "Lopez", "first_name" => "Sarah", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //512              
+                ["last_name" => "Montoso", "first_name" => "Louie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //513             
+                ["last_name" => "Garcia", "first_name" => "Anna", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //514
+                ["last_name" => "Alub", "first_name" => "Janster", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //515                
+                ["last_name" => "Espelita", "first_name" => "Cerilo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //516               
+                ["last_name" => "Crisostomo", "first_name" => "Mary Ann", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //517               
+                ["last_name" => "Sotalbo", "first_name" => "Ronnel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //518
+                ["last_name" => "Miguel", "first_name" => "Roberto", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //519
+                ["last_name" => "", "first_name" => "Smart Communications Inc.", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //520
+                ["last_name" => "Lopez", "first_name" => "Renato", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //521               
+                ["last_name" => "Bernal", "first_name" => "Diane", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //522               
+                ["last_name" => "Nava", "first_name" => "Roselle", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //523               
+                ["last_name" => "Franco", "first_name" => "Joyce", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //524
+                ["last_name" => "Llames", "first_name" => "Adrian", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //525
+                ["last_name" => "Navarro", "first_name" => "Vhong", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //526
+                ["last_name" => "Flores", "first_name" => "Angelica", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //527
+                ["last_name" => "Garcia", "first_name" => "Freddie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                
+
+
+//*************************************************************************************************************************************************
+//*************************************************************************************************************************************************
+
+                //START OF NBI PRESS RELEASE VICTIMS ******************************************************************************************
+                
+
+                //528
+                ["last_name" => "Tenorio", "first_name" => "Fausto", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //529
+                ["last_name" => "Astanes", "first_name" => "James", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //530
+                ["last_name" => "Talino", "first_name" => "Mitchie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //531              
+                ["last_name" => "Cordova", "first_name" => "Anna Ysabel", "middle_name" => "Santos", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //532              
+                ["last_name" => "Glorioso", "first_name" => "Lowell", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //533
+                ["last_name" => "Randel", "first_name" => "Pinky", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //534
+                ["last_name" => "Espiritu", "first_name" => "Patrick", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //535
+                ["last_name" => "Mercado", "first_name" => "Jay", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //536
+                ["last_name" => "Tayer", "first_name" => "Ian", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //537
+                ["last_name" => "Ramos", "first_name" => "Joseph", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //538
+                ["last_name" => "Hatud", "first_name" => "Jane", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //539           
+                ["last_name" => "Jimenez", "first_name" => "Ruby Rose", "middle_name" => "Barrameda", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //540
+                ["last_name" => "Bernalis", "first_name" => "Stanley", "middle_name" => "Barrameda", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //541             
+                ["last_name" => "Siy", "first_name" => "Henry", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //542
+                ["last_name" => "Mestiso", "first_name" => "Harold", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //543
+                ["last_name" => "Hardinero", "first_name" => "James", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //544             
+                ["last_name" => "Garcia", "first_name" => "Michelle", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //545               
+                ["last_name" => "Orello", "first_name" => "Steven", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //546
+                ["last_name" => "Usilva", "first_name" => "Ken", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //547
+                ["last_name" => "Que", "first_name" => "Renato", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //548
+                ["last_name" => "Ramsey", "first_name" => "John", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //549
+                ["last_name" => "Hernandez", "first_name" => "Keith", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //550
+                ["last_name" => "Garcia", "first_name" => "Giovanni", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //551
+                ["last_name" => "Jakosalem", "first_name" => "Barry", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //552              
+                ["last_name" => "Esteban", "first_name" => "Mariebel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //553                
+                ["last_name" => "Saguitan", "first_name" => "Nida", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //554               
+                ["last_name" => "Butac", "first_name" => "Gemma", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //555               
+                ["last_name" => "Foronda", "first_name" => "Gladys", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //556              
+                ["last_name" => "Camangeg", "first_name" => "Prosefina", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //557               
+                ["last_name" => "Balatico", "first_name" => "Michelle", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //558               
+                ["last_name" => "Navaro", "first_name" => "Ferdinand", "middle_name" => "", "alias" => "Vhong",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //559
+                ["last_name" => "Esguerra", "first_name" => "Carlo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //560
+                ["last_name" => "Dizon", "first_name" => "Jan Michel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+//********************************************************************************************************************************************************
+//********************************************************************************************************************************************************
+
+                // SUSPECTS FROM WIKIPILIPINAS
+
+                //561
+                ["last_name" => "Albana", "first_name" => "Roberto", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //562
+                ["last_name" => "Alcalde", "first_name" => "Rodolfo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //563
+                ["last_name" => "Anzures", "first_name" => "Narding", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //564
+                ["last_name" => "Relebo", "first_name" => "Mario", "middle_name" => "Azcarraga", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //565
+                ["last_name" => "Bagamasbad", "first_name" => "Veronico", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //566
+                ["last_name" => "Bucala", "first_name" => "Amado", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //567
+                ["last_name" => "Buenaventura", "first_name" => "Roberto", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //568
+                ["last_name" => "Castigador", "first_name" => "Victor", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //569
+                ["last_name" => "Cutad", "first_name" => "Neil", "middle_name" => "", "alias" => "Jojo",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //570
+                ["last_name" => "Dickpus", "first_name" => "Corey", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //571
+                ["last_name" => "Estrada", "first_name" => "Allan", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //572
+                ["last_name" => "De Leon", "first_name" => "Tony", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //573
+                ["last_name" => "Velasco", "first_name" => "Ernie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //574
+                ["last_name" => "Fajardo", "first_name" => "Aldrin", "middle_name" => "Bonobo", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //575
+                ["last_name" => "Fajardo", "first_name" => "Harold", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //576
+                ["last_name" => "Fajardo", "first_name" => "Rolando", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //577
+                ["last_name" => "Gobiana", "first_name" => "Ronaldo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //578
+                ["last_name" => "Gonzales", "first_name" => "Jaime", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //579
+                ["last_name" => "Iran", "first_name" => "Eduardo", "middle_name" => "", "alias" => "Boy Muslim",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //580
+                ["last_name" => "Jakiri", "first_name" => "Tigre", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //581
+                ["last_name" => "Jalosjos", "first_name" => "Romeo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //582
+                ["last_name" => "Lavilla", "first_name" => "Ruben", "middle_name" => "", "alias" => "Sheikh Omar",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //583
+                ["last_name" => "Castro", "first_name" => "Juan", "middle_name" => "Manalo", "alias" => "Juancho",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //584
+                ["last_name" => "Marcelo", "first_name" => "Joel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //585
+                ["last_name" => "Monteson", "first_name" => "Ignacio", "middle_name" => "", "alias" => "Pogito",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //586
+                ["last_name" => "Moog", "first_name" => "Jaime", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //587
+                ["last_name" => "Narag", "first_name" => "Severino", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //588
+                ["last_name" => "Orollo", "first_name" => "Nestor", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //589
+                ["last_name" => "Pagulayan", "first_name" => "Felizardo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //590
+                ["last_name" => "Panlilio", "first_name" => "Jose Ma.", "middle_name" => "", "alias" => "Bong",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //591
+                ["last_name" => "Perez", "first_name" => "Eleazar", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //592
+                ["last_name" => "Rodriguez", "first_name" => "Loreto", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //593
+                ["last_name" => "Rosero", "first_name" => "Alice", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //594
+                ["last_name" => "Ablaza", "first_name" => "Ruben", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //595
+                ["last_name" => "Salamon", "first_name" => "Fraser", "middle_name" => "", "alias" => "Abu Jarin",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //596
+                ["last_name" => "Salik", "first_name" => "Pedro", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //597
+                ["last_name" => "Sanchez", "first_name" => "Antonio", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //598
+                ["last_name" => "Tura", "first_name" => "Alven", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //599
+                ["last_name" => "Valerio", "first_name" => "Mario", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //600
+                ["last_name" => "Villar", "first_name" => "Raul", "middle_name" => "", "alias" => "Ka Drilon",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //601
+                ["last_name" => "Zamora", "first_name" => "Eddie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+
+
+
+
+//********************************************************************************************************************************************************
+//********************************************************************************************************************************************************
+
+                // VICTIMS FROM WIKIPILIPINAS
+
+                //602
+                ["last_name" => "Florentino", "first_name" => "Angelika", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //603
+                ["last_name" => "Go", "first_name" => "George", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //604
+                ["last_name" => "Yang", "first_name" => "Shi", "middle_name" => "Shu", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //605
+                ["last_name" => "Velez", "first_name" => "Shirley", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //606
+                ["last_name" => "Desidido", "first_name" => "Brian", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //607
+                ["last_name" => "Lewis", "first_name" => "Sargeant", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //608
+                ["last_name" => "Yu", "first_name" => "Kenneth", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //609
+                ["last_name" => "Parchamento", "first_name" => "Helen", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //610
+                ["last_name" => "Juliano", "first_name" => "Mylene", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //611
+                ["last_name" => "Castro", "first_name" => "Janet", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //612
+                ["last_name" => "William", "first_name" => "James", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //613
+                ["last_name" => "Bautista", "first_name" => "Angelo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //614
+                ["last_name" => "Lagudon", "first_name" => "Carlo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //615
+                ["last_name" => "Turla", "first_name" => "Aen", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //616
+                ["last_name" => "Lopez", "first_name" => "Leonardo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //617
+                ["last_name" => "Santos", "first_name" => "Girlie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //618
+                ["last_name" => "Cervantes", "first_name" => "Paulo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //619
+                ["last_name" => "Dantes", "first_name" => "Jeronimo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //620
+                ["last_name" => "Jopriano", "first_name" => "Frank", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //621
+                ["last_name" => "Yu", "first_name" => "Dana", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //622
+                ["last_name" => "Antonio", "first_name" => "Mercy", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //623
+                ["last_name" => "Yoon", "first_name" => "Jae", "middle_name" => "Keon", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //624
+                ["last_name" => "Delantar", "first_name" => "Rosilyn", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //625
+                ["last_name" => "Santos", "first_name" => "Caroline", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //626
+                ["last_name" => "Manalo", "first_name" => "Hannah", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //627
+                ["last_name" => "Manalo", "first_name" => "Josie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //628
+                ["last_name" => "Manalili", "first_name" => "Dominga", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //629
+                ["last_name" => "Se", "first_name" => "Luis", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //630
+                ["last_name" => "Erecio", "first_name" => "Gil", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //631
+                ["last_name" => "Enriquez", "first_name" => "Reynaldo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //632
+                ["last_name" => "Taberna", "first_name" => "Anthony", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //633
+                ["last_name" => "Dimapili", "first_name" => "Vercasio", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //634
+                ["last_name" => "Romero", "first_name" => "Gladys", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //635
+                ["last_name" => "Gomez", "first_name" => "Ben", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //636
+                ["last_name" => "Nepomuceno", "first_name" => "Luis", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //637
+                ["last_name" => "Gutierrez", "first_name" => "Albert", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //638
+                ["last_name" => "Real", "first_name" => "Ariel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //639
+                ["last_name" => "Mutuc", "first_name" => "Danilo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //640
+                ["last_name" => "Maniaol", "first_name" => "Angelito", "middle_name" => "", "alias" => "Marlo",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //641
+                ["last_name" => "Manalo", "first_name" => "John", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //642
+                ["last_name" => "Huggins", "first_name" => "Annabelle", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //643
+                ["last_name" => "Galang", "first_name" => "Dominique", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //644
+                ["last_name" => "Franco", "first_name" => "Harold", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //645
+                ["last_name" => "Sarmenta", "first_name" => "Aileen", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //646
+                ["last_name" => "Gomez", "first_name" => "Allan", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //647
+                ["last_name" => "Lara", "first_name" => "Bienvenido", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //648
+                ["last_name" => "Agonillo", "first_name" => "Teofisto", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //649
+                ["last_name" => "Suarez", "first_name" => "Alfredo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //650
+                ["last_name" => "Gomez", "first_name" => "Francheska", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+//*********************************************************************************************************************************************************
+//*********************************************************************************************************************************************************
+
+                //START OF COMPLAINANTS FROM WIKIPILIPINAS
+
+
+                //651
+                ["last_name" => "Torres", "first_name" => "Jaimie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //652
+                ["last_name" => "Min", "first_name" => "Yo", "middle_name" => "Shi", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //653
+                ["last_name" => "Dela Rosa", "first_name" => "Jaime", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //654
+                ["last_name" => "Donnis", "first_name" => "Michael", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //655
+                ["last_name" => "Jaraza", "first_name" => "Rodolfo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //656
+                ["last_name" => "Trumph", "first_name" => "Ronald", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //657
+                ["last_name" => "Bautista", "first_name" => "Ronnel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //658
+                ["last_name" => "Lagudon", "first_name" => "Emily", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //659
+                ["last_name" => "Mahinahon", "first_name" => "Vince", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //660
+                ["last_name" => "Santos", "first_name" => "Victor", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //661
+                ["last_name" => "Cervantes", "first_name" => "James", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //662
+                ["last_name" => "Dantes", "first_name" => "Rizza", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //663
+                ["last_name" => "Antonio", "first_name" => "Juan", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //664
+                ["last_name" => "Belonio", "first_name" => "Cesar", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //665
+                ["last_name" => "Santos", "first_name" => "Joseph", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //666
+                ["last_name" => "Manalo", "first_name" => "Christopher", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //667
+                ["last_name" => "Solomon", "first_name" => "Norma", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //668
+                ["last_name" => "Taberna", "first_name" => "Judith", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //669
+                ["last_name" => "Umali", "first_name" => "Londan", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //670
+                ["last_name" => "Gomez", "first_name" => "Michael", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //671
+                ["last_name" => "Nepomuceno", "first_name" => "Jackie", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //672
+                ["last_name" => "Forres", "first_name" => "Anton", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //673
+                ["last_name" => "Gerardo", "first_name" => "Regino", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //674
+                ["last_name" => "Dominguez", "first_name" => "Lenita", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //675
+                ["last_name" => "Velez", "first_name" => "Lilian", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //676
+                ["last_name" => "Galang", "first_name" => "Vic", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //677
+                ["last_name" => "Jimenez", "first_name" => "James", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //678
+                ["last_name" => "Sanchez", "first_name" => "Antonio", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //679
+                ["last_name" => "Cortez", "first_name" => "Lito", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //680
+                ["last_name" => "Maginoo", "first_name" => "Darlo", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //681
+                ["last_name" => "Suarez", "first_name" => "Anna", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+                //682
+                ["last_name" => "Zamora", "first_name" => "Allysa", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+
+//*******************************************************************************************************************************************************
+//*******************************************************************************************************************************************************
+
+
+                //SUBJECTS FROM DOJ MAJOR CASES
+
+                //683
+                ["last_name" => "Genuino", "first_name" => "Efraim", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+                //684
+                ["last_name" => "Francisco", "first_name" => "Rafael", "middle_name" => "", "alias" => "Butch",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+                //685
+                ["last_name" => "Roxas", "first_name" => "Manuel", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+                //686
+                ["last_name" => "King", "first_name" => "Edward", "middle_name" => "", "alias" => "Dodie",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+                //687
+                ["last_name" => "Bautista", "first_name" => "Carlos", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""], 
+
+                //688
+                ["last_name" => "Mendoza", "first_name" => "Rolando", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+                //689
+                ["last_name" => "Garcia", "first_name" => "Carlos", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+                //690
+                ["last_name" => "Garcia", "first_name" => "Clarita", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""],
+
+                //691
+                ["last_name" => "Neri", "first_name" => "Romulo", "middle_name" => "Luminaris", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""], 
+
+
+//*******************************************************************************************************************************************************
+//*******************************************************************************************************************************************************
+
+
+                //VICTIMS FROM DOJ MAJOR CASES
+
+                //692
+                ["last_name" => "", "first_name" => "Philippine Amusement and Gaming Corporation", "middle_name" => "", "alias" => "PAGCOR",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""], 
+
+                //693
+                ["last_name" => "Tse", "first_name" => "Masa", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Chinese", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""], 
+
+                //694
+                ["last_name" => "Kwokchu", "first_name" => "Joe Chan", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Chinese", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""], 
+
+                //695
+                ["last_name" => "Yik", "first_name" => "Siu", "middle_name" => "Ling", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Chinese", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""], 
+
+                //696
+                ["last_name" => "", "first_name" => "Bureau of Internal Revenue", "middle_name" => "", "alias" => "BIR",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""], 
+
+                //697
+                ["last_name" => "", "first_name" => "Department of Justice", "middle_name" => "", "alias" => "DOJ",
+                "birthdate" => "", "occupation" => "", "sex" => "Male",
+                "civil_status" => "", "citizenship" => "Filipino", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""], 
+
+
+
+//*****************************************************************************************************************************************************
+
+                //COMPLAINANTS FROM DOJ MAJOR CASES
+
+                //698
+                ["last_name" => "Leung", "first_name" => "Amy", "middle_name" => "", "alias" => "",
+                "birthdate" => "", "occupation" => "", "sex" => "Female",
+                "civil_status" => "", "citizenship" => "Chinese", "birth_place" => "",
+                "educational_attainment" => "", "hair_color" => "", "eye_color" => "",
+                "complexion" => "", "build" => "", "race" => ""], 
+
+                
+
+
+
+
+
+
+
+                
+
+
+
+
+
         );
 
         // Uncomment the below to run the seeder

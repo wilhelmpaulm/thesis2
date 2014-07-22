@@ -111,7 +111,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About SHERLOCK</h2>
-                <p>This project is in partial fulfillment of THSIS01 for BS Information Systems students.</p>
+                <p>This project is in partial fulfillment of THSIS02 for BS Information Systems students.</p>
                 <p>The system was developed by <a href="http://wilhelmpaulm.com/">wilhelmpaulm</a> along with his group mates <a href="http://twitter.com/janinekau">@janinekau</a></p>
                 <p><a href="http://twitter.com/kieruntalan">@kieruntalan</a> and <a href="https://twitter.com/enricoespenesin">@enricoespenesin</a></p>
             </div>

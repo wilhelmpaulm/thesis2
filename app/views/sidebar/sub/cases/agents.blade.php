@@ -1,7 +1,7 @@
 <?php $agents = User::where("division", "=", Auth::user()->division)->where("job_title", "!=", "Secretary")->get(); ?>
 
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4">
         <div class="panel panel-black">
             <div class="panel-heading">
                 <h3 class="panel-title"><i class="fa fa-users"></i> {{Auth::user()->division}} Agents</h3>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
 
-                <div style="height: 450px; overflow-y:auto">
+                <div style="height:40vh; overflow-y:auto">
 
                     <ul class="list list-unstyled    ">
                         @foreach($agents as $a)
@@ -452,7 +452,7 @@
 
 
     </script>
-    <div class="col-lg-6">
+    <div class="col-lg-8">
         @include("sidebar.sub.cases.agent_summary")
     </div>
 </div>

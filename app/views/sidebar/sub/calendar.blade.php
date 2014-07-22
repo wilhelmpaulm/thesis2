@@ -23,11 +23,13 @@
 
             </div>
            <div class="btn-group btn-group-justified btn-group-sm">
-                    <a class="btn btn-success " type="button" data-toggle="modal" data-target="#addAppointment">
-                        <i class="fa fa-plus"></i> <i class="fa fa-group"></i> 
+                    <a class="btn bg-peterriver" type="button" data-toggle="modal" data-target="#addAppointment">
+                        <!--<i class="fa fa-plus"></i> <i class="fa fa-group"></i>--> 
+                        add appointment 
                     </a>
-                    <a class="btn  btn-success" type="button" data-toggle="modal" data-target="#addTask">
-                        <i class="fa fa-plus"></i> <i class="fa fa-tasks"></i> 
+                    <a class="btn  bg-teal" type="button" data-toggle="modal" data-target="#addTask">
+                        <!--<i class="fa fa-plus"></i> <i class="fa fa-tasks"></i>--> 
+                        add task 
                     </a>
             </div>
             <br>
@@ -85,7 +87,7 @@
         valueNames: ['list_id', 'list_heading', 'list_date']
     };
 
-    var userList = new List('list_plug', options);
+//    var userList = new List('list_plug', options);
 
 
 </script>
@@ -154,5 +156,5 @@
 //        { "bSortable": false }, // <-- disable sorting for column 3
 //     ]
 //});
-
+// $('.selectpicker').remove();
 </script>

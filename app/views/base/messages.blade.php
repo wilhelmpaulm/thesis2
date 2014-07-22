@@ -6,15 +6,6 @@
 </div>
 
 
-<script >
-    $('a[href="#sub"]').tab('show');
-    var sidebarsub = $("#sidebarsubhtml").html();
-    $("#subheading").removeClass("hide");
-    
-    $("#sub").append(sidebarsub);
-    $("#subheading").text("Messages");
-
-</script>
 
 
 <div class="col-md-12">
@@ -26,6 +17,18 @@
 </div>
 
 
+<script >
+//    $("#sidebarsubhtml").html("");
+    $('a[href="#sub"]').tab('show');
+    var sidebarsub = $("#sidebarsubhtml").html();
+    $("#subheading").removeClass("hide");
+    
+    $("#sub").append(sidebarsub);
+    
+    $("#subheading").text("Messages");
+    
+    $('.selectpicker').selectpicker();
+</script>
 
 
 

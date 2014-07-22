@@ -3,7 +3,7 @@
     <div class="panel-heading">
         <h3 class="panel-title"><i class="fa fa-list-ul"></i> Assignment Summary</h3>
     </div>
-    <ul class="list-group">
+    <ul class="list-group" style="height:45vh; overflow-y:auto">
         @foreach($aCom as $ac)
         <?php $ag = User::find($ac['agent_id']); ?>
         <li class="list-group-item">

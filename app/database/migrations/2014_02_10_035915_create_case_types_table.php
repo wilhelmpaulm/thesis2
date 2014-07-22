@@ -15,6 +15,9 @@ class CreateCaseTypesTable extends Migration {
 		Schema::create('case_types', function(Blueprint $table) {
 			$table->increments('id');
 			$table->string('type');
+			$table->integer('difficulty')->nullable();
+			$table->integer('time')->nullable();
+			$table->integer('manpower')->nullable();
 			$table->timestamps();
 		});
 	}

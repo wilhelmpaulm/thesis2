@@ -15,6 +15,7 @@
     $("#sub").append(sidebarsub);
     $("#subheading").text("Calendar Schedules");
 
+    $('.selectpicker').selectpicker();
 </script>
 
 

@@ -79,6 +79,4 @@
         $(this).parent().parent().parent().remove();
     });
 
-
-    $('.selectpicker').selectpicker();
 </script>
