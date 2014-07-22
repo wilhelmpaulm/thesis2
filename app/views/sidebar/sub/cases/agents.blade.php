@@ -1,5 +1,39 @@
 <?php $agents = User::where("division", "=", Auth::user()->division)->where("job_title", "!=", "Secretary")->get(); ?>
+<?php
+$coll = [];
+//$coll contents are as follows
+/*  0 => agent_id
+ *  1 => case load summary
+ *  2 => case success ratio
+ *  3 => seniority
+ * 
+ */
+foreach ($agents as $a) {
+    $blank = [$a->id];
+    //case load summary
+    $cls = 0;
+    //case success ratio
+    $csr = 0;
+    //seniority
+    $s = 0;
+    foreach ($case_type_tags as $ctt) {
+        $tcases = DB::select("SELECT * FROM kases inner JOIN case_type_tags
+                        ON kases.id=case_type_tags.case_id where 
+                        case_type_tags.type = ? and kases.status = 'Closed_Finished' and kases.agent_id=?", [$ctt->type, $a->id]);
+        $s += count($tcases);
+    }
 
+    
+    array_push($blank, $s);
+    array_push($coll, $blank);
+}
+?>
+@foreach($coll as $cc)
+@foreach($cc as $cs)
+{{$cs}} ___
+@endforeach
+<br>
+@endforeach
 <div class="row">
     <div class="col-md-4">
         <div class="panel panel-black">
@@ -191,10 +225,10 @@
 
                     </div>
 
-                    
-                        
+
+
                     <div class="tab-pane" id="messages{{$a->id}}">
-                        
+
                         <div class="row ">
                             <div class="col-md-12">
                                 <!--style="min-width: 310px; height: 400px; margin: 0 auto"-->
@@ -357,7 +391,7 @@
                                 <p> 639279655572</p>
                                 <p> 025613793</p>
                                 <p> untalan.kier@nbi.ph</p>
-                                
+
 
                                 @foreach($contacts as $c)
                                 @if($c->type == "Email")<p class=""><i class="fa fa-envelope"></i> 
@@ -366,7 +400,7 @@
                                 @endforeach
                             </div>
                             <div class="col-lg-2">
-                                 <strong>Division</strong>
+                                <strong>Division</strong>
                                 <p>{{$a->division}}</p>
                                 <strong>Position</strong>
                                 <p>{{$a->job_title}}</p>
@@ -381,17 +415,17 @@
                                 <p>Rape, Murder, Suicide</p>
                                 <strong>Languages Spoken</strong>
                                 <p>Filipino, Hungarian, French, German</p>
-                                
+
 
                             </div>
-<!--                            <div class="col-lg-3">
-                                <h4>Languages Spoken</h4>
-                                @foreach($languages as $l)
-                                <p class="">- {{$l->language}}</p>
-                                @endforeach
-
-                            </div>-->
+                            <!--                            <div class="col-lg-3">
+                                                            <h4>Languages Spoken</h4>
+                                                            @foreach($languages as $l)
+                                                            <p class="">- {{$l->language}}</p>
+                                                            @endforeach
                             
+                                                        </div>-->
+
                         </div>
                     </div>
 

@@ -7,12 +7,7 @@ class ComplaintsTableSeeder extends Seeder {
         DB::table('complaints')->truncate();
 
         $complaints = array(
-            //TEMPLATE
-            ["date_commited" => "", "date_reported" => "",
-                "narration" => "",
-                "agency_reported" => "", "agency_report_details" => "", "agency_report_status" => "", "court_action_details" => "",
-                "considerations" => "",
-                "img_signature" => "", "img_right_thumb" => ""],
+            
 //****************************************************************************************************************************************************************//
 //****************************************************************************************************************************************************************//
             //COMPLAINTS FROM THESIS1

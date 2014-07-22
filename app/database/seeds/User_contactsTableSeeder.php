@@ -9,16 +9,16 @@ class User_contactsTableSeeder extends Seeder {
         $user_contacts = array(
             
             //CHIEF
-            ["user_id" => 10930193, "type" => "Email", "contact" => "kieruntalan@nbi.com"],
+            ["user_id" => 10930193, "type" => "Email", "contact" => "danieldaganzo@nbi.com"],
             ["user_id" => 10930193, "type" => "Mobile", "contact" => "09278173141"],
 
             //EXECUTIVE OFFICER
-            ["user_id" => 10930316, "type" => "Email", "contact" => "jongabarra@nbi.com"],
+            ["user_id" => 10930316, "type" => "Email", "contact" => "arnoldrosales@nbi.com"],
             ["user_id" => 10930316, "type" => "Mobile", "contact" => "09178754571"],
 
             //SECRETARY
-            ["user_id" => 10930192, "type" => "Email", "contact" => "janinekau@nbi.com"],
-            ["user_id" => 10930218, "type" => "Email", "contact" => "maryjoyvillacorta@nbi.com"],
+            ["user_id" => 10930218, "type" => "Email", "contact" => "marylee@nbi.com"],
+            ["user_id" => 10930192, "type" => "Email", "contact" => "teresabautista@nbi.com"],
 
             ["user_id" => 10930192, "type" => "Mobile", "contact" => "09068254612"],
             ["user_id" => 10930218, "type" => "Mobile", "contact" => "09157471241"],

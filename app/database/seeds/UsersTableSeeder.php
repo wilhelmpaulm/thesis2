@@ -133,17 +133,17 @@ class UsersTableSeeder extends Seeder {
                 "job_title" => "Agent", "division" => "CCD", "sex" => "Male", "password" => Hash::make("pawie2062"),
                 "civil_status" => "Annulled", "file_picture" => "10916644.jpg", "status" => "Active"],
             // FLD CHIEF   ******************************************************************************
-            ["id" => 10930193, "last_name" => "Untalan", "first_name" => "Kier Hassel",
+            ["id" => 10930193, "last_name" => "Daganzo", "first_name" => "Daniel",
                 "middle_name" => "Zaraspe", "birthdate" => "1949-10-15", "date_hired" => "2010-03-09",
                 "job_title" => "Chief", "division" => "FLD", "sex" => "Male", "password" => Hash::make("pawie2062"),
                 "civil_status" => "Divorced", "file_picture" => "10930193.jpg", "status" => "Active"],
             //FLD EXECUTIVE OFFICER ******************************************************************************
-            ["id" => 10930316, "last_name" => "Abbara", "first_name" => "Jong",
+            ["id" => 10930316, "last_name" => "Rosales", "first_name" => "Arnold",
                 "middle_name" => "Robles", "birthdate" => "1987-02-26", "date_hired" => "2014-02-10",
                 "job_title" => "Executive_Officer", "division" => "FLD", "sex" => "Male", "password" => Hash::make("pawie2062"),
                 "civil_status" => "Married", "file_picture" => "10930311.jpg", "status" => "Active"],
             // FLD SECRETARY  ******************************************************************************
-            ["id" => 10930192, "last_name" => "Kau", "first_name" => "Janine",
+            ["id" => 10930192, "last_name" => "Bautista", "first_name" => "Teresa",
                 "middle_name" => "Formoso", "birthdate" => "1993-08-01", "date_hired" => "2013-04-18",
                 "job_title" => "Secretary", "division" => "FLD", "sex" => "Female", "password" => Hash::make("pawie2062"),
                 "civil_status" => "Single", "file_picture" => "10930192.jpg", "status" => "Active"],
