@@ -1,6 +1,21 @@
 <?php $agents = User::where("division", "=", Auth::user()->division)->where("job_title", "!=", "Secretary")->get(); ?>
 <?php
 $coll = [];
+$arrg = [];
+
+function sortSuccessRatio($a, $b) {
+    if ($a[1] == $b[1]) {
+        return 0;
+    }
+    return ($a[1] < $b[1]) ? 1 : -1;
+}
+function sortAverageLoad($a, $b) {
+    if ($a[2] == $b[2]) {
+        return 0;
+    }
+    return ($a[2] < $b[2]) ? 1 : -1;
+}
+
 //$coll contents are as follows
 /*  0 => agent_id
  *  1 => case load summary
@@ -12,30 +27,96 @@ foreach ($agents as $a) {
     $blank = [$a->id];
     //case load summary
     $cls = 0;
+    //total matched cases
+    $tmc = 0;
     //case success ratio
     $csr = 0;
     //seniority
     $s = 0;
+    
+    //currrent cases
+    //[case_id, types, diff avg, user rating, user prio, chief prio, load ave]
+    $cccc = [];
+
+
+    //case success ratio computation
     foreach ($case_type_tags as $ctt) {
         $tcases = DB::select("SELECT * FROM kases inner JOIN case_type_tags
                         ON kases.id=case_type_tags.case_id where 
+                        case_type_tags.type = ? and kases.agent_id=?", [$ctt->type, $a->id]);
+        $tfcases = DB::select("SELECT * FROM kases inner JOIN case_type_tags
+                        ON kases.id=case_type_tags.case_id where 
                         case_type_tags.type = ? and kases.status = 'Closed_Finished' and kases.agent_id=?", [$ctt->type, $a->id]);
-        $s += count($tcases);
+        $csr += count($tfcases);
+        $tmc += count($tcases);
+    }
+    $tttt2 = 0;
+    //case load summary computation
+    $acases = Kase::where("agent_id", "=", $a->id)->where("status", "=", "Ongoing")->get();
+    foreach ($acases as $ac) {
+        $caray = [];
+        array_push($caray, $ac->id);
+        
+//        $ctts = Case_type_tag::where("case_id", "=", $ac->id)->get();
+        $ctts = DB::select("SELECT * FROM case_type_tags JOIN case_types
+                        ON case_type_tags.type=case_types.type where 
+                        case_type_tags.case_id = ?", [$ac->id]);
+        $caseTypeString = "";
+        $tttt = 0;
+//        var_dump($ctts)   ;
+        foreach ($ctts as $ctt) {
+            $caseTypeString .= $ctt->type.",";
+//            print_r($ctt);
+            $tttt += (($ctt->difficulty + $ctt->time + $ctt->manpower) / 3);
+        }
+        
+        $tttt = ($tttt / count($ctts));
+        
+        array_push($caray, $caseTypeString);
+        array_push($caray, $tttt);
+        array_push($caray, $ac->user_rating);
+        array_push($caray, $ac->user_priority);
+        array_push($caray, $ac->chief_priority);
+        //considers user rating
+        $tttt = (($tttt + $ac->user_rating) / 2);
+        //consider priority status
+        $tttt2 += ($tttt * (($ac->user_priority + $ac->chief_prority) / 2));
+        array_push($caray, ($tttt * (($ac->user_priority + $ac->chief_prority)/2)));
+        array_push($cccc, $caray);
+        
+    }
+    
+    $tncases = $acases->count();
+
+    //success ratio
+    if ($tmc != 0) {
+        array_push($blank, round($csr / $tmc, 2));
+    } else {
+        array_push($blank, 0);
     }
 
-    
-    array_push($blank, $s);
+    //load of the user
+    if ($tncases != 0) {
+        array_push($blank, round($tttt2 / $tncases, 2));
+    } else {
+        array_push($blank, 0);
+    }
+
+    //successful cases
+    array_push($blank, $csr);
+    //total related cases
+    array_push($blank, $tmc);
+    //total cases of an agent ongoing
+    array_push($blank, $tncases);
+    array_push($blank, $cccc);
+    //[user_id, success ratio, load, finished cases, total related, ongoing, cccc]
     array_push($coll, $blank);
 }
 ?>
-@foreach($coll as $cc)
-@foreach($cc as $cs)
-{{$cs}} ___
-@endforeach
-<br>
-@endforeach
+
+
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="panel panel-black">
             <div class="panel-heading">
                 <h3 class="panel-title"><i class="fa fa-users"></i> {{Auth::user()->division}} Agents</h3>
@@ -56,7 +137,7 @@ foreach ($agents as $a) {
                     </div>
                 </div>
 
-                <div style="height:40vh; overflow-y:auto">
+                <div style="height:60vh; overflow-y:auto">
 
                     <ul class="list list-unstyled    ">
                         @foreach($agents as $a)
@@ -486,8 +567,113 @@ foreach ($agents as $a) {
 
 
     </script>
-    <div class="col-lg-8">
-        @include("sidebar.sub.cases.agent_summary")
+    <div class="col-lg-9">
+
+        <div class="panel panel-black">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-list-ul"></i> Assignment Summary</h3>
+            </div>
+
+                <br>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#home" data-toggle="tab">Case Success Ratio</a></li>
+                    <li><a href="#profile" data-toggle="tab">Current Case Load Average</a></li>
+                    <li><a href="#messages" data-toggle="tab">Messages</a></li>
+                    <li><a href="#settings" data-toggle="tab">Settings</a></li>
+                </ul>
+                <br>
+                <div class="panel-body" style="height:70vh; overflow-y:auto">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Agent</th>
+                                    <th>Related Cases Solved</th>
+                                    <th>Related Cases Handled</th>
+                                    <th>Case Success Ratio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php usort($coll, "sortSuccessRatio");?>
+                                @foreach($coll as $co)
+                                <tr>
+                                    <td>{{$co[0]}}</td>
+                                    <td>{{$co[3]}}</td>
+                                    <td>{{$co[4]}}</td>
+                                    <td>{{$co[1]}}</td>
+                                </tr>
+                                @endforeach
+                            </tbody>
+                        </table>     
+                    </div>
+                    <div class="tab-pane " id="profile">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Agent</th>
+                                    <th>Case ID</th>
+                                    <th width="20%">Case Type</th>
+                                    <th>Difficulty Average</th>
+                                    <th>User Rating</th>
+                                    <th>User Priority</th>
+                                    <th>Chief Priority</th>
+                                    <th>Current Load Average</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php usort($coll, "sortAverageLoad");?>
+                                    <!--//[case_id, types, diff avg, user rating, user prio, chief prio, load ave]-->
+                                @foreach($coll as $co)
+                                <tr>
+                                    <td>{{$co[0]}}</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                @foreach($co[6] as $cc)
+                                <tr>
+                                    <td></td>
+                                    <td>{{$cc[0]}}</td>
+                                    <td>{{$cc[1]}}</td>
+                                    <td>{{round($cc[2], 2)}}</td>
+                                    <td>{{$cc[3]}}</td>
+                                    <td>{{$cc[4]}}</td>
+                                    <td>{{$cc[5]}}</td>
+                                    <td>{{round($cc[6],2)}}</td>
+                                </tr>
+                                @endforeach
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Current Load Average</td>
+                                    <td>{{$co[2]}}</td>
+                                </tr>
+                                
+                                @endforeach
+                            </tbody>
+                        </table>  
+
+                        
+                        
+                        
+                    </div>
+                    <div class="tab-pane" id="messages">...</div>
+                    <div class="tab-pane" id="settings">...</div>
+                </div>
+            </div>
+
+
+        </div>
     </div>
 </div>
 

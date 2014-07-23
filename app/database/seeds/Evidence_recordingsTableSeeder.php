@@ -34,8 +34,6 @@ class Evidence_recordingsTableSeeder extends Seeder {
                 "file_name" => "12.mp3"],
             ["user_id" => 10930216, "case_id" => 130, "details" => "Voice record of Lovely Bueno and Leslie Antonio planning to forge a signature", "owner" => "Lovely Bueno", "date_recorded" => "2013-10-26", "date_received" => "2013-11-05",
                 "file_name" => "13.mp3"],
-            ["user_id" => 10940446, "case_id" => 203, "details" => "Voice call of the suspect that is eager to return to his job", "owner" => "Jerry Gonzales", "date_recorded" => "2010-08-16", "date_received" => "2010-08-24",
-                "file_name" => "222.mp3"],
         );
 
         // Uncomment the below to run the seeder
