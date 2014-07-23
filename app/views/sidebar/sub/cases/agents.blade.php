@@ -15,6 +15,12 @@ function sortAverageLoad($a, $b) {
     }
     return ($a[2] < $b[2]) ? 1 : -1;
 }
+function sortSummary($a, $b) {
+    if ($a[7] == $b[7]) {
+        return 0;
+    }
+    return ($a[7] < $b[7]) ? 1 : -1;
+}
 
 //$coll contents are as follows
 /*  0 => agent_id
@@ -87,9 +93,11 @@ foreach ($agents as $a) {
     }
     
     $tncases = $acases->count();
-
+    $sr = 0;
+    $lo = 0;
     //success ratio
     if ($tmc != 0) {
+        $sr= round($csr / $tmc, 2);
         array_push($blank, round($csr / $tmc, 2));
     } else {
         array_push($blank, 0);
@@ -97,6 +105,7 @@ foreach ($agents as $a) {
 
     //load of the user
     if ($tncases != 0) {
+        $lo = round($tttt2 / $tncases, 2);
         array_push($blank, round($tttt2 / $tncases, 2));
     } else {
         array_push($blank, 0);
@@ -109,7 +118,9 @@ foreach ($agents as $a) {
     //total cases of an agent ongoing
     array_push($blank, $tncases);
     array_push($blank, $cccc);
-    //[user_id, success ratio, load, finished cases, total related, ongoing, cccc]
+    array_push($blank, $sr+$lo);
+    
+    //[user_id, success ratio, load, finished cases, total related, ongoing, cccc, total]
     array_push($coll, $blank);
 }
 ?>
@@ -140,7 +151,9 @@ foreach ($agents as $a) {
                 <div style="height:60vh; overflow-y:auto">
 
                     <ul class="list list-unstyled    ">
-                        @foreach($agents as $a)
+                        <?php usort($coll, "sortSummary");?>
+                        @foreach($coll as $c)
+                        <?php $a = User::find($c[0]);?>
                         <li><a  id="" data-toggle="modal" data-target="#agent_details_{{$a->id}}" class="list-group-item c_link">
                                 <div class="row">
                                     <div class="col-lg-4">
@@ -575,11 +588,9 @@ foreach ($agents as $a) {
             </div>
 
                 <br>
-                <ul class="nav nav-tabs">
+                <ul class="nav nav-tabs nav-justified">
                     <li class="active"><a href="#home" data-toggle="tab">Case Success Ratio</a></li>
                     <li><a href="#profile" data-toggle="tab">Current Case Load Average</a></li>
-                    <li><a href="#messages" data-toggle="tab">Messages</a></li>
-                    <li><a href="#settings" data-toggle="tab">Settings</a></li>
                 </ul>
                 <br>
                 <div class="panel-body" style="height:70vh; overflow-y:auto">
@@ -667,8 +678,7 @@ foreach ($agents as $a) {
                         
                         
                     </div>
-                    <div class="tab-pane" id="messages">...</div>
-                    <div class="tab-pane" id="settings">...</div>
+                  
                 </div>
             </div>
 
