@@ -27,7 +27,7 @@ asort($dates);
 
 <div class="panel panel-black ">
     <div class="panel-heading">
-        <h3 class="panel-title">Case type trends</h3>
+        <h3 class="panel-title"></h3>
     </div>
     <div class="panel-body">
         <div id="container" class="zoom-100" style="">

@@ -25,21 +25,21 @@
         <div class=" col-md-9">
             <div class="row">
                 <div class="form-group col-md-4">
-                    <label for="first_name">First Name</label>
-                    <input required required type="text" class="form-control" id="first_name" placeholder="Juan" name="first_name_s[]">
+                    <label for="first_name"><span class="c-red">*</span>First Name</label>
+                    <input   type="text" class="form-control" id="first_name" placeholder="Juan" name="first_name_s[]">
                 </div>
                 <div class="form-group col-md-4">
                     <label for="middle_name">Middle Name</label>
-                    <input required required type="text" class="form-control" id="middle_name" placeholder="Ignacio" name="middle_name_s[]">
+                    <input   type="text" class="form-control" id="middle_name" placeholder="Ignacio" name="middle_name_s[]">
                 </div>
                 <div class="form-group col-md-4">
-                    <label for="last_name">Last Name</label>
-                    <input required required type="text" class="form-control" id="last_name" placeholder="De La Cruz" name="last_name_s[]">
+                    <label for="last_name"><span class="c-red">*</span>Last Name</label>
+                    <input   type="text" class="form-control" id="last_name" placeholder="De La Cruz" name="last_name_s[]">
                 </div>
             </div>
             <div class="row ">
                 <div class="form-group col-md-4">
-                    <label for="street">Street Number and Street</label>
+                    <label for="street"><span class="c-red">*</span>Street Number and Street</label>
                     <input type="text" class="form-control" id="street" placeholder="1671 Pedro Gil St" name="street_client_s[]">
                 </div>
                 <div class="form-group col-md-2">
@@ -63,14 +63,14 @@
                         </div>-->
             <div class="row">
                 <div class="form-group col-md-4">
-                    <label for="birthdate">Date of Birth</label>
-                    <input required required type="date" class="form-control" id="birthdate" placeholder="factory worker" name="birthdate_c">
+                    <label for="birthdate"><span class="c-red">*</span>Date of Birth</label>
+                    <input   type="date" class="form-control" id="birthdate" placeholder="factory worker" name="birthdate_s[]">
                 </div>
 
             </div>
             <div class="row">
                 <div class="form-group col-md-4">
-                    <label for="sex">Sex</label>
+                    <label for="sex"><span class="c-red">*</span>Sex</label>
                     <br>
                     <!--                                        <div class="btn-group" data-toggle="buttons">
                                                                 <label class="btn btn-default">
@@ -81,25 +81,31 @@
                                                                 </label>
                                                                 
                                                             </div>-->
-                    <span><input type="radio" name="sex_s[]"  value="Male" checked="checked" /> Male</span>   <span style="padding-left: 20px"><input type="radio" name="sex_s[]"  value="Female" /> Female</span>
+                    <!--<span><input type="radio" name="sex_s[]"  value="Male" checked="checked" /> Male</span>   <span style="padding-left: 20px"><input type="radio" name="sex_s[]"  value="Female" /> Female</span>-->
+                    <!--<span><input type="radio" name="sex_s[]"  value="Male" checked="checked" /> Male</span>   <input type="radio" name="sex_s[]"  value="Female" /> Female-->
+                    <!--<label><input type="radio" name="sex_s[]"  value="Male" checked="checked" /> Male</label>   <label><input type="radio" name="sex_s[]"  value="Female" /> Female</label>-->
+                  <select class="form-control" name="sex_s[]">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
                 </div>
             </div>
             <div class="row">
                 <div class="form-group col-md-4 hidden">
                     <label for="contact_type">Contact Type</label>
-                    <input required required type="text" class="form-control" value="Mobile" id="contact" placeholder="" name="contact_type_s[]">
+                    <input   type="text" class="form-control" value="Mobile" id="contact" placeholder="" name="contact_type_s[]">
 
                 </div>
                 <div class="form-group col-md-4">
-                    <label for="contact">Contact</label>
-                    <input required required type="text" class="form-control" id="contact" placeholder="+631234567890" name="contact_s[]">
+                    <label for="contact"><span class="c-red">*</span>Contact Information</label>
+                    <input   type="text" class="form-control" id="contact" placeholder="Number or Email" name="contact_s[]">
                 </div>
             </div>
             <div class="row">
 
                 <div class="form-group col-md-4">
-                    <label for="citizenship">Citizenship</label>
-                    <input required required type="text" class="form-control" id="citizenship" placeholder="Filipino" name="citizenship_s[]">
+                    <label for="citizenship"><span class="c-red">*</span>Citizenship</label>
+                    <input   type="text" class="form-control" id="citizenship" placeholder="Filipino" name="citizenship_s[]">
                 </div>
 
             </div>
@@ -113,16 +119,18 @@
 
                     <div class="row">
                         <div class="form-group col-md-12">
-                            <label for="occupation">Occupation</label>
-                            <input required required type="text" class="form-control" id="occupation" placeholder="Factory worker" name="occupation_s[]">
-
-                            <label for="contact_type">Civil Status</label>
+                            <label for="occupation"><span class="c-red">*</span>Occupation</label>
+                            <input   type="text" class="form-control" id="occupation" placeholder="Factory worker" name="occupation_s[]">
+                            <br>
+                            <label for="contact_type"><span class="c-red">*</span>Civil Status</label>
                             <?php $civil_statuses = Civil_status::all(); ?>
                             <select name="civil_status_s[]" class="form-control">
                                 @foreach($civil_statuses as $cs)
                                 <option value="{{$cs->status}}">{{$cs->status}}</option>
                                 @endforeach
                             </select>
+                            <br>
+                            <span class="c-red">* Required</span>
                         </div>
                     </div>
                 </div>

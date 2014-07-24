@@ -37,7 +37,7 @@ $cases = Kase::where("status", "=", "Ongoing")->where("agent_id", "=", Auth::use
     </div>
     <div class="panel-footer clearfix">
         <span class="btn-group btn-group-sm pull-right">
-            <button class="btn btn-success">Save Changes</button>
+            <button class="btn btn-success">Submit</button>
         </span>
     </div>
     </form>

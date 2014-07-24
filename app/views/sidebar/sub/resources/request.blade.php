@@ -358,7 +358,7 @@
 
 <script>
     var options = {
-        valueNames: ['list_name', 'list_status', 'list_category'],
+        valueNames: ['list_name', 'list_status', 'list_category', 'list_info'],
 //        plugins: [ListFuzzySearch()]
     };
 

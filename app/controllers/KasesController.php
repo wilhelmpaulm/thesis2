@@ -98,7 +98,7 @@ class KasesController extends BaseController {
 
 
 
-            System_logsController::createLog($case->agent_id, $case->id, $case->id, Auth::user()->id . " reoppened case " . $case->id, "kases");
+            System_logsController::createLog($case->agent_id, $case->id, $case->id, Auth::user()->id . " reopened case " . $case->id, "kases");
             return Redirect::to(strtolower(Auth::user()->job_title) . "/cases-closed");
         }
         return Redirect::back();

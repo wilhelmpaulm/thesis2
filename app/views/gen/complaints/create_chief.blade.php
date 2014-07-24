@@ -21,11 +21,11 @@
 
     </ul>
     <br>
-    <div class="progress progress-striped active">
+<!--    <div class="progress progress-striped active">
         <div id="pg-add" class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width:50%">
             <span id="pg-add-text"></span>
         </div>
-    </div>
+    </div>-->
     </div>
     </div>
 

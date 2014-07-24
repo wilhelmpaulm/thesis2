@@ -27,12 +27,12 @@
             $la = "";
             $lo = "";
 
-            if ($case != null) {
-                if ($c->id == $case->id) {
-                    $la = "active";
-                    $lo = "bg-gray";
-                }
-            }
+//            if ($case != null) {
+//                if ($c->id == $case->id) {
+//                    $la = "active";
+//                    $lo = "bg-gray";
+//                }
+//            }
             ?>
             <li class="treeview {{$la}} {{$lo}}">
                 <a href="#">

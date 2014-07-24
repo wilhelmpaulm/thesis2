@@ -47,7 +47,7 @@ if (Input::get("case1") != null && Input::get("case2") != null) {
                 </div>
                 <div class="panel-footer clearfix hidden-print">
                     <div class="btn-group btn-group-sm pull-right">
-                        <button class="btn btn-success">Send</button>
+                        <button class="btn btn-success">Submit</button>
                     </div>
                 </div>
             </form>

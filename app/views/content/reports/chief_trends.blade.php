@@ -18,7 +18,7 @@ $cases = Kase::all();
     <div class="col-md-12">
         <div class="panel panel-black">
             <div class="panel-heading">
-                <h3 class="panel-title">Case Trends</h3>
+                <h3 class="panel-title"></h3>
             </div>
             <form>
                 <div class="panel-body ">
@@ -48,7 +48,7 @@ $cases = Kase::all();
                 </div>
                 <div class="panel-footer clearfix hidden-print">
                     <div class="btn-group btn-group-sm pull-right">
-                        <button class="btn btn-success">Send</button>
+                        <button class="btn btn-success">Submit</button>
                     </div>
                 </div>
             </form>

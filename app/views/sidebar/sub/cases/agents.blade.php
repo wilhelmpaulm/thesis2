@@ -71,7 +71,7 @@ foreach ($agents as $a) {
         $tttt = 0;
 //        var_dump($ctts)   ;
         foreach ($ctts as $ctt) {
-            $caseTypeString .= $ctt->type.",";
+            $caseTypeString .= $ctt->type.", ";
 //            print_r($ctt);
             $tttt += (($ctt->difficulty + $ctt->time + $ctt->manpower) / 3);
         }
@@ -156,13 +156,43 @@ foreach ($agents as $a) {
                         <?php $a = User::find($c[0]);?>
                         <li><a  id="" data-toggle="modal" data-target="#agent_details_{{$a->id}}" class="list-group-item c_link">
                                 <div class="row">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-5">
                                         <img src="{{URL::asset('nbi/agent/picture/'.$a->file_picture)}}" width="100%" class="img img-thumbnail">
+                                        <hr>  
+                                        <div style="overflow-x: auto; overflow-y: hidden">
+                                        <p class="label label-primary ">{{$a->id}}</p>
+                                                    <p class="label label-default list_details">{{$a->job_title}}</p>
+                                        </div>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h4 class="list-group-item-heading list_name "><strong>{{$a->last_name.", ".$a->first_name}}</strong></h4>
-                                        <h5 class="list-group-item-text ">{{$a->id}}</h5>
-                                        <h5 class="list-group-item-text list_details">{{$a->job_title}}</h5>
+                                    <div class="col-lg-7">
+                                        <table class="table table-bordered table-condensed">
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="2">
+                                        <p class="list-group-item-heading list_name "><strong>{{$a->last_name.", ".$a->first_name}}</strong></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Case Success Ratio
+                                                    </td>
+                                                    <td>
+                                                    <p class="label label-success">{{$c[2]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Case Load Average
+                                                        
+                                                    </td>
+                                                    <td>
+                                                    <p class="label label-warning">{{$c[1]}}</p>
+                                                        
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
                                         <!--<p class=" list_created_at text-muted">{{$a->created_at}}</p>-->
                                     </div>
                                 </div>
@@ -589,14 +619,14 @@ foreach ($agents as $a) {
 
                 <br>
                 <ul class="nav nav-tabs nav-justified">
-                    <li class="active"><a href="#home" data-toggle="tab">Case Success Ratio</a></li>
-                    <li><a href="#profile" data-toggle="tab">Current Case Load Average</a></li>
+                    <li class=""><a href="#home" data-toggle="tab">Case Success Ratio</a></li>
+                    <li class="active"><a href="#profile" data-toggle="tab">Current Case Load Average</a></li>
                 </ul>
                 <br>
                 <div class="panel-body" style="height:70vh; overflow-y:auto">
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div class="tab-pane active" id="home">
+                    <div class="tab-pane " id="home">
                         <table class="table table-bordered table-striped">
                             <thead>
                                 <tr>
@@ -609,8 +639,9 @@ foreach ($agents as $a) {
                             <tbody>
                                 <?php usort($coll, "sortSuccessRatio");?>
                                 @foreach($coll as $co)
+                                <?php $a  = User::find($co[0])?>
                                 <tr>
-                                    <td>{{$co[0]}}</td>
+                                    <td>{{$a->last_name}}</td>
                                     <td>{{$co[3]}}</td>
                                     <td>{{$co[4]}}</td>
                                     <td>{{$co[1]}}</td>
@@ -619,7 +650,7 @@ foreach ($agents as $a) {
                             </tbody>
                         </table>     
                     </div>
-                    <div class="tab-pane " id="profile">
+                    <div class="tab-pane active" id="profile">
                         <table class="table table-bordered table-striped">
                             <thead>
                                 <tr>
@@ -637,8 +668,9 @@ foreach ($agents as $a) {
                                 <?php usort($coll, "sortAverageLoad");?>
                                     <!--//[case_id, types, diff avg, user rating, user prio, chief prio, load ave]-->
                                 @foreach($coll as $co)
+                                <?php $a  = User::find($co[0])?>
                                 <tr>
-                                    <td>{{$co[0]}}</td>
+                                    <td>{{$a->last_name}}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>

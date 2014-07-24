@@ -76,13 +76,10 @@ $aCom = [];
                                             </th>
                                     </tr>
                                     <tr>
-                                        <td><strong>Narration</strong></td>
-                                        <td>{{$complaint->narration}}</td>
+                                        <td><strong>Details</strong></td>
+                                        <td>{{$complaint->details}}</td>
                                     </tr>
-                                    <tr>
-                                        <td><strong>Considerations</strong></td>
-                                        <td>{{$complaint->considerations}}</td>
-                                    </tr>
+                                   
                                 </tbody>
                             </table>
 

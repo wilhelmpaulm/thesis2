@@ -426,7 +426,7 @@ foreach($case_type_tags as $ctt){
         @else
         <form action="{{URL::to("cases/reopen/".$case->id)}}" method="post">
             <div class="modal-body">
-                <label>password</label>
+                <label>Password</label>
                 <input class="form-control" name="password" type="password">
                 <label>Reason for Re-opening</label>
                 <textarea name="details" class="form-control" rows="20" cols="20"></textarea>
@@ -460,7 +460,7 @@ foreach($case_type_tags as $ctt){
         </div>
         <form action="{{URL::to("cases/reassign/".$case->id)}}" method="post">
             <div class="modal-body">
-                <label>password</label>
+                <label>Password</label>
                 <input class="form-control" name="password" type="password">
                 <label>Agent</label>
                 <select class="form-control" name="agent_id">

@@ -17,7 +17,7 @@ if(Input::get("type")!= null){
     <div class="col-md-12">
         <div class="panel panel-black">
             <div class="panel-heading">
-                <h3 class="panel-title">Case Status Per Type </h3>
+                <h3 class="panel-title"></h3>
             </div>
             <form>
                 <div class="panel-body ">
@@ -47,7 +47,7 @@ if(Input::get("type")!= null){
                 </div>
                 <div class="panel-footer clearfix hidden-print">
                     <div class="btn-group btn-group-sm pull-right">
-                        <button class="btn btn-success">Send</button>
+                        <button class="btn btn-success">Submit</button>
                     </div>
                 </div>
             </form>

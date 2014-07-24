@@ -102,7 +102,7 @@ if (Input::get("type") != null && Input::get("status") != null && Input::get("lo
         </div>
         <div class="panel-footer clearfix hidden-print">
             <div class="btn-group btn-group-sm pull-right">
-                <button class="btn btn-success">Send</button>
+                <button class="btn btn-success">Submit</button>
             </div>
         </div>
     </form>

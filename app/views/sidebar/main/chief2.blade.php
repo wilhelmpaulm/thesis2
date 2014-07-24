@@ -36,9 +36,8 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="{{URL::to("chief/cases-list")}}"  style=""><i class="fa fa-angle-double-right"></i> Case List</a></li>
-                    <li> <a href="{{URL::to("chief/cases-add")}}" style=""><i class="fa fa-angle-double-right"></i> Add Complaint</a></li>
+                    <li> <a href="{{URL::to("chief/cases-add")}}" style=""><i class="fa fa-angle-double-right"></i> Continue Complaint</a></li>
                     <li> <a href="{{URL::to("chief/cases-assign")}}" style=""><i class="fa fa-angle-double-right"></i> Assign</a></li>
-                    <li><a href="{{URL::to("chief/cases-pending")}}" class="" style=""><i class="fa fa-angle-double-right"></i> Pending</a>
                     <li> <a href="{{URL::to("chief/cases-ongoing")}}" style=""><i class="fa fa-angle-double-right"></i> Ongoing</a></li>
                     <li><a href="{{URL::to("chief/cases-closed")}}"  style=""><i class="fa fa-angle-double-right"></i> Closed</a></li>
                     <li><a href="{{URL::to("chief/cases-non-viable")}}" style=""><i class="fa fa-angle-double-right"></i> Non-viable</a></li>

@@ -65,8 +65,9 @@
                                                                       </div>-->
                                             <br>
                                             <span><input type="radio" name="complainant_victim"  value="Yes" checked="checked" /> Yes</span>   <span style="padding-left: 20px"><input type="radio" name="complainant_victim"  value="No" /> No</span>
-
-
+                                            <br>
+                                            <br>
+                                            <span class="c-red">* Required</span>
                                         </div>
 
                                     </div>
@@ -74,7 +75,8 @@
                                     <!--@include("gen.client_addresses.create")-->
                                 </div>
                             </div>
-                            <div class="panel-footer clearfix">
+                            <div class="clearfix">
+
                                 <div class="btn-group btn-group-sm pull-right">
                                     <a class="btn btn-primary" href="#tab2" data-toggle="tab" id="tt2">Next</a>
                                 </div>
@@ -100,7 +102,7 @@
                                     <br>
                                     <br>
                                 </div>
-                                <div class="panel-footer clearfix">
+                                <div class=" clearfix">
                                     <div class="btn-group btn-group-sm pull-right">
 
                                         <a class="btn btn-primary" href="#tab3" data-toggle="tab" id="tt3">Next</a>
@@ -122,7 +124,7 @@
                                 <div class="panel-body" id="add_subject_panel">
 
                                 </div>
-                                <div class="panel-footer clearfix">
+                                <div class=" clearfix">
                                     <div class="btn-group btn-group-sm pull-right">
 
                                         <a class="btn btn-primary" href="#tab4" data-toggle="tab" id="tt4">Next</a>
@@ -145,34 +147,30 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group ">
-                                            <label for="date_commited">Date committed</label>
+                                            <label for="date_commited"><span class="c-red">*</span>Date committed</label>
                                             <input type="date" class="form-control" id="date_commited" placeholder="Enter date" name="date_commited">
                                         </div>
                                         <div class="form-group">
-                                            <label for="date_reported">Date reported</label>
+                                            <label for="date_reported"><span class="c-red">*</span>Date reported</label>
                                             <input type="date" class="form-control" id="date_reported" placeholder="Enter date" name="date_reported">
                                         </div>
 
                                     </div>
 
                                     <div class="col-md-6">
-                                        <div class="panel ">
-                                            <div class="panel-heading clearfix">
-                                                <span class=""><i class="fa fa-group"></i> Type Tags  </span>
-                                                <span class="btn-group btn-group-sm pull-right">
-                                                    <button type="button"  id="add_type_tags_btn" class="pull-right btn btn-success"><i class="fa fa-plus"></i></button>
-                                                </span>
-                                            </div>
-                                            <div class="panel-body" id="add_type_tags_panel">
-
-                                            </div>
-                                        </div>
+                                        <label><span class="c-red">*</span>Case Type Tag</label>
+                                        <select  name="type[]" class="selectpicker form-control " multiple data-live-search="true" multiple data-selected-text-format="count">
+                                            <?php $cts = Case_type::orderBy("type", "asc")->get();?>
+                                            @foreach($cts as $ct)
+                                            <option value="{{$ct->type}}">{{$ct->type}}</option>
+                                            @endforeach
+                                        </select>
                                     </div>
                                 </div>
-
-                                <hr>
+                                <br>
+                                <span class="c-red">* Required</span>
                                 <div class="btn-group btn-group-sm pull-right">
-                                    <button type="submit" class="btn btn-default  btn-success">Submit</button>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
                                 </div>
                             </div>
                         </div>
@@ -198,8 +196,8 @@
             </div>
             <div class="panel-body" id="">
                 @include("gen.clients.create_victim")
-<!--                <hr>
-                @include("gen.client_addresses.create_victim")-->
+
+                <!--@include("gen.client_addresses.create_victim")-->
             </div>
         </div>
 
@@ -213,15 +211,15 @@
             </div>
             <div class="panel-body" id="">
                 @include("gen.clients.create_subject")
-<!--                <hr>
-                @include("gen.client_addresses.create_subject")-->
+                <!--                <hr>
+                                @include("gen.client_addresses.create_subject")-->
 
             </div>
         </div>
     </div>
 
 
-    <div id="add_type_tags_body">
+<!--    <div id="add_type_tags_body">
         <div class="panel ">
             <div class="panel-heading clearfix">
                 <span class="btn-group btn-group-sm pull-right">
@@ -232,7 +230,7 @@
                 @include("gen.complaint_type_tags.create")
             </div>
         </div>
-    </div>
+    </div>-->
 
 
 
@@ -295,5 +293,5 @@
         $(this).parent().parent().parent().remove();
     });
 
-
+     $(".selectpicker").selectpicker();
 </script>
